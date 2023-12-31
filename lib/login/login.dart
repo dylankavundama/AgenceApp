@@ -39,8 +39,8 @@ class _LoginState extends State<Login> {
                   child: Stack(
                     alignment: Alignment.center,
                     children: [
-                      Image.asset(
-                        "assets/images/a.jpg",
+                      Image.network(
+                        'https://images.pexels.com/photos/4606721/pexels-photo-4606721.jpeg',
                         width: MediaQuery.of(context).size.width,
                         height: MediaQuery.of(context).size.height,
                         fit: BoxFit.cover,
@@ -78,15 +78,20 @@ class _LoginState extends State<Login> {
                                           MainAxisAlignment.center,
                                       children: [
                                         Text(
-                                          "Welcome to ",
+                                          "Agence de voyage",
                                           style: GoogleFonts.abel(
-                                              fontSize: 35,
-                                              color: Colors.black),
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 39,
+                                              color: Colors.white),
                                         ),
                                         //
 
-                                        Image.asset(
-                                          'assets/lg.png',
+                                        Text(
+                                          "Trouver un billet pour votre destiantion",
+                                          style: GoogleFonts.abel(
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 19,
+                                              color: Colors.black),
                                         ),
 
                                         SizedBox(
@@ -125,7 +130,7 @@ class _LoginState extends State<Login> {
                                                     child: Row(
                                                       children: [
                                                         Image.asset(
-                                                          'assets/images/google.png',
+                                                          'lib/go.png',
                                                           height: 30,
                                                         ),
                                                         const SizedBox(
@@ -151,7 +156,8 @@ class _LoginState extends State<Login> {
                                                     .height *
                                                 0.03),
                                         const SizedBox(height: 19),
-                                        Text('Condition',
+                                        Text(
+                                            'Copyright © 2024 Agence de voyage',
                                             style: GoogleFonts.abel(
                                                 fontSize: 17,
                                                 color: Colors.white),
@@ -209,7 +215,7 @@ class _LoginState extends State<Login> {
                 if (value.user != null) {
                   Navigator.of(context, rootNavigator: true).pushAndRemoveUntil(
                     CupertinoPageRoute(
-                      builder: (context) =>  navBar (),
+                      builder: (context) => navBar(),
                     ),
                     (Route<dynamic> route) => false,
                   );

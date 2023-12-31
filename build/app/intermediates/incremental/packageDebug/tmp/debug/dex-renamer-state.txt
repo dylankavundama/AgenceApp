@@ -1,7 +1,0 @@
-#Sun Dec 31 12:44:12 CET 2023
-base.0=C\:\\Users\\Kaniel Utis\\3D Objects\\agence\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-base.1=C\:\\Users\\Kaniel Utis\\3D Objects\\agence\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
-path.0=classes.dex
-path.1=classes2.dex
-renamed.0=classes.dex
-renamed.1=classes2.dex

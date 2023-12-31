@@ -19,6 +19,7 @@ class _MyMianPageState extends State<MyMianPage> {
       body: CustomScrollView(
         slivers: <Widget>[
           SliverAppBar(
+            foregroundColor: Colors.white,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(30),

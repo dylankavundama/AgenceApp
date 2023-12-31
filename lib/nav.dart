@@ -1,5 +1,5 @@
 import 'package:agence/MainPage.dart';
-import 'package:agence/profile/profile.dart';
+import 'package:agence/login/profile/profile.dart';
 import 'package:flutter/material.dart';
 
 class navBar extends StatefulWidget {
@@ -12,9 +12,12 @@ class navBar extends StatefulWidget {
 class _navBarState extends State<navBar> {
   int currentindex = 0;
   List<Widget> screen = [
+
 MyMianPage(),
+
 MyMianPage(),
 Profile(),
+
   ];
   void _listbotton(int index) {
     currentindex = index;
