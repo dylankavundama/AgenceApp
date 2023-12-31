@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "283623160431",
+    "project_id": "lezzart-app",
+    "storage_bucket": "lezzart-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283623160431:android:e47aed74a4810140db2b9a",
+        "android_client_info": {
+          "package_name": "com.lezzart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283623160431-0s054bbcbchhk8mlrcv0uf0u1cgg8s0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lezzart",
+            "certificate_hash": "e061ef5a25008732b284447a8cb1fdc7b8f06637"
+          }
+        },
+        {
+          "client_id": "283623160431-e3g0plvdmjskq6ajcm6mnl4a8kie2oj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lezzart",
+            "certificate_hash": "90877f346c95d787366dc6eed8924412a0c5a116"
+          }
+        },
+        {
+          "client_id": "283623160431-p73vlki087qn441en4hgavojhpm6h66p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lezzart",
+            "certificate_hash": "fb9c72c9b3b3978af2a70665c47ece10ef5e0791"
+          }
+        },
+        {
+          "client_id": "283623160431-naip9406vjpgls38rfneimclfbigu2a9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbHrqMRZuKHo--ThZNdsyP-lieLT0HQ2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283623160431-naip9406vjpgls38rfneimclfbigu2a9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
